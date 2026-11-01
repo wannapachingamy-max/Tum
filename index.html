@@ -193,9 +193,11 @@
                 <div className="min-h-screen w-full flex items-center justify-center p-6 bg-gradient-to-br from-pastel-bg to-pastel-pink/20">
                     <Card className="w-full max-w-md animate-fade-in shadow-xl shadow-purple-900/10">
                         <div className="text-center mb-8">
-                            <div className="w-20 h-20 bg-pastel-purple rounded-3xl mx-auto flex items-center justify-center mb-4 shadow-inner transform transition-transform hover:scale-110 duration-300">
-                                <span className="text-4xl text-pastel-purpleDark font-bold">F</span>
-                            </div>
+                            <img 
+                                src="image_4.png" 
+                                alt="Focus Buddy Logo" 
+                                className="w-20 h-20 rounded-3xl mx-auto mb-4 shadow-sm transform transition-transform hover:scale-110 duration-300 object-cover"
+                            />
                             <h1 className="text-2xl font-bold text-slate-800">Focus Buddy</h1>
                             <p className="text-slate-500 mt-2">
                                 {isRegister ? 'สร้างบัญชีเพื่อเริ่มต้นจัดระเบียบชีวิตกันเถอะ! ✨' : 'ยินดีต้อนรับกลับมา! พร้อมจะลุยหรือยัง? 🌟'}
@@ -954,7 +956,11 @@
 
                         <nav className="fixed bottom-0 w-full max-w-md md:max-w-none md:relative md:w-64 bg-white md:bg-transparent border-t md:border-t-0 md:border-r border-slate-100 md:border-slate-200 z-40 p-4 md:p-6 flex md:flex-col justify-around md:justify-start gap-2 shadow-[0_-10px_40px_rgba(0,0,0,0.03)] md:shadow-none pb-safe">
                             <div className="hidden md:flex items-center gap-3 mb-10 px-2 group cursor-pointer">
-                                <div className="w-10 h-10 bg-pastel-purple rounded-xl flex items-center justify-center text-pastel-purpleDark font-bold text-xl transition-transform group-hover:rotate-12 duration-300">F</div>
+                                <img 
+                                    src="image_4.png" 
+                                    alt="Focus Buddy Logo" 
+                                    className="w-10 h-10 rounded-xl transition-transform group-hover:rotate-12 duration-300 object-cover"
+                                />
                                 <span className="font-bold text-lg text-slate-800">Focus Buddy</span>
                             </div>
 
